@@ -1,0 +1,29 @@
+form input[name="city"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 5px #b8b8b8ab;
+}
+
+form input[name="country"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 5px #b8b8b8ab;
+}
+
+.btn{
+    background-color: rgba(0, 0, 255, 0.219);
+    border-color: rgba(0, 0, 160, 0.411);
+    color: white;
+    font-weight: 600;
+    border-width: 5px;
+    width:75%;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

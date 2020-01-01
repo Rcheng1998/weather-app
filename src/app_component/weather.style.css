@@ -1,0 +1,19 @@
+.float{
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    from {transform: translate(0, 0px);}
+    65% {transform: translate(0, 5px);}
+}
+
+.cards{
+    text-transform: capitalize;
+    background: whitesmoke;
+    opacity: 0.9;
+    border-radius: 25px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.466);
+}
